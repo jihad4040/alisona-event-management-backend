@@ -105,7 +105,7 @@ function setupSecurity(app: any, configService: ConfigService, nodeEnv: string):
 
   app.enableCors({
     origin: [
-      'https://alisona555-dashboard.vercel.app',
+      'https://alison-frontend.vercel.app',
       'http://localhost:3000',
     ],
     credentials: true,
